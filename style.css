@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header .container{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav ul{
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    background-color: #F3D7B7;
+    padding: 22px 0;
+}
+.hero-text h1{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    color: #000000;
+    margin-top: 176px;
+    margin-bottom: 30px;
+    }
+    .hero{
+        padding: 100px 0;
+        background-color: #F3D7B7;
+        height: 610px;
+    }
+    .hero .contaner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 150px;
+    }
+    .hero-text p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 30px;
+    }
+    .hero-text{
+        width: 484px;
+        padding-left: 50px;
+    }
+  
+    .hero-img{
+    position: relative;
+    }
+
+    .img-kichkina{
+        position: absolute;
+        top: -100px;
+        left: -100px;
+        animation-name: aylan;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    @keyframes aylan{
+       from{
+        transform: rotate(0deg);
+       }
+       to{
+        transform: rotate(360deg);
+       }
+    }
+    .h3{
+font-weight: 700;
+font-size: 48px;
+line-height: 100%;
+letter-spacing: 0px;
+font-variant: small-caps;
+color: #000000;
+margin-bottom: 30px;
+    }
+    .hero2 p{
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 0px;
+          color: #333333;        
+    }
+    .hero2{
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .hero3{
+    background-color: #C99B67;
+display: flex;
+align-items: center;
+justify-content: space-between;
+    }
+    .h2{
+font-weight: 700;
+font-size: 50px;
+line-height: 100%;
+letter-spacing: 0px;
+font-variant: small-caps;
+color: white;
+    }
+    .hero3 p{
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0px;
+color: white;
+    }
+    footer{
+        width: 1440px;
+        height: 160px;
+        background-color: #F3D7B7;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    footer .text{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    .img-fot{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
